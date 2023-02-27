@@ -15,7 +15,7 @@ export class CreateNewsDto {
   @ApiProperty()
   @IsString()
   @IsNotEmpty()
-  author: string;
+  userId: string;
 
   @ApiProperty()
   @ValidateIf((o) => o.cover)
