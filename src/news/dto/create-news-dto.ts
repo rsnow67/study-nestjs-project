@@ -12,10 +12,9 @@ export class CreateNewsDto {
   @IsNotEmpty()
   description: string;
 
-  @ApiProperty()
   @IsString()
   @IsNotEmpty()
-  author: string;
+  userId: string;
 
   @ApiProperty()
   @ValidateIf((o) => o.cover)
