@@ -21,7 +21,7 @@ import { UsersService } from './users/users.service';
       port: 5432,
       username: 'postgres',
       password: 'deadline47',
-      database: 'nest-news-blog',
+      database: 'gb-nest-news-blog',
       entities: ['dist/**/*.entity{.ts,.js}'],
       synchronize: true,
     }),
